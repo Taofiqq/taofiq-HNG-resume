@@ -441,6 +441,22 @@
   }
   /* end of skills */
 
+  /* references */
+  .refereces-content {
+      gap: .25rem;
+      
+  }
+  .references-subtitle {
+      color: var(--text-color);
+  }
+  .references-subtitle, .references-contact {
+      font-size: var(--smaller-font-size);
+  }
+  .references-title {
+      font-size: var(--h3-font-size);
+  }
+  /* end of references */
+
   /* interests */
   .interests-container  {
     grid-template-columns: repeat(2, 1fr);
