@@ -321,7 +321,7 @@
       margin-bottom: var(--mb-1);
   }
   .home-title {
-      font-size: var(--h1-font-size)
+      font-size: var(--h1-font-size);
   }
   .home-profession {
       margin-bottom: var(--mb-1);
@@ -350,6 +350,18 @@
       font-weight: var(--font-medium);
       margin-top: var(--mb-3);
 
+  }
+  .hng-img {
+      width: 20px;
+      position: absolute;
+      right: 0;
+      top: 4rem;
+  }
+  .zuri-img {
+    width: 20px;
+    position: absolute;
+    left: -.1rem;
+    top: 4rem;
   }
   /* end of home page */
 
@@ -499,6 +511,17 @@
       bottom: 5rem;
   }
   /* end of scroll top */
+
+  /* footer */
+  .footer-copy {
+      text-align: center;
+      margin-top: -1.7rem;
+  }
+  .footer-copy-link {
+      color: var(--text-color);
+      font-size: .85rem;
+  }
+  /* end of footer */
 
   /* media queries */
 
