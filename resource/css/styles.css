@@ -106,7 +106,7 @@
         display: none;
   }
   .scale-cv .bd-container {
-      max-width: 595px;
+      max-width: 695px;
   }
   .scale-cv .section {
       padding: 1.5rem 0 .80rem;
@@ -149,19 +149,19 @@
       padding-right: .5rem;
   }
 
-  .scale-cv, .education-rounder, 
+  .scale-cv .education-rounder, 
   .scale-cv .experience-rounder{
       width: 11px;
       height: 11px;
       margin-top: .22rem;
   }
-  .scale-cv, .education-line, 
+  .scale-cv .education-line, 
   .scale-cv .experience-line{
       width: 1px;
       height: 110%;
       transform: translate(5px, 0);
   }
-  .scale-cv, .education-data, 
+  .scale-cv .education-data, 
   .scale-cv, .experience-data {
       gap: .25rem;
   }
