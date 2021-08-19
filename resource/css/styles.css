@@ -455,6 +455,9 @@
 
 
   /* projects */
+  .project-container {
+      gap: 1rem;
+  }
     .project-title {
         font-size: var(--h3-font-size);
         margin-bottom: var(--mb-1);
