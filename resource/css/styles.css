@@ -423,13 +423,13 @@
       font-size: var(--h3-font-size);
   }
   .education-studies, .experience-company{
-      color: var(--title-color);
+      color: var(--text-color);
       font-size: var(--small-font-size);
   }
   .education-year {
       font-size: var(--smaller-font-size);
   }
-  /* end of education */
+  /* end of education and experience */
 
   /* skills and languages */
   .skills-content, .languages-content {
