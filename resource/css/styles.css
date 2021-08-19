@@ -453,19 +453,36 @@
   }
   /* end of skills */
 
+
+  /* projects */
+    .project-title {
+        font-size: var(--h3-font-size);
+        margin-bottom: var(--mb-1);
+    }
+    .project-link {
+        color:var(--text-color);
+        text-decoration: underline;
+    }
+  /* end of projects */
+
   /* references */
-  .refereces-content {
-      gap: .25rem;
-      
+  .references-content {
+      gap: .75rem;     
   }
   .references-subtitle {
       color: var(--text-color);
   }
-  .references-subtitle, .references-contact {
+  .references-subtitle, .references-contact{
       font-size: var(--smaller-font-size);
+  }
+  .references-contact{
+      margin-bottom: .5rem;
   }
   .references-title {
       font-size: var(--h3-font-size);
+  }
+  .references-contact ~ p {
+   font-size: .7rem;
   }
   /* end of references */
 
@@ -530,6 +547,12 @@
     .nav-list {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem .5rem;
+    }
+    .footer-copy {
+        padding: 1rem 0;
+    }
+    .footer-copy-link {
+        font-size: .6rem;
     }
   }
 
