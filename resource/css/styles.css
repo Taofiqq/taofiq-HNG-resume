@@ -533,13 +533,17 @@
   /* end of scroll top */
 
   /* footer */
+  .footer{
+      height: 2rem;
+  }
   .footer-copy {
       text-align: center;
-      margin-top: -1.7rem;
+      margin-top: -1rem;
   }
   .footer-copy-link {
       color: var(--text-color);
       font-size: .85rem;
+      
   }
   /* end of footer */
 
