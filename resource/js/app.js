@@ -1,3 +1,12 @@
+// COMPULSORY NAME PRINTING TASK
+const myName = (firstName, lastName) => {
+    return `My name is ${firstName} ${lastName}`
+}
+
+console.log(myName ('Taofiq', 'Aiyelabegan'))
+
+
+
 // Display the nav menu
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
